@@ -9,12 +9,7 @@ def map (array)
   new
 end 
 
-def reduce (array, default = 0)
-  i=0 
-  while i<array.length do 
-    new_new += yield(array[i]) + default
-    i += 1 
-  end 
-  new_new
+def reduce (array, sv=0)
+ if sv
 end 
 
