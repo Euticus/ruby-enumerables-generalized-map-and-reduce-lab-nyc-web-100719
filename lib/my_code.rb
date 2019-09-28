@@ -9,3 +9,12 @@ def map (array)
   new
 end 
 
+def reduce (array, default = 0)
+  i=0 
+  while i<array.length do 
+    default += yield(array[i])
+    i += 1 
+  end 
+  default
+end 
+
