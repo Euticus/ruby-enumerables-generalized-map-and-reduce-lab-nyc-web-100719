@@ -17,5 +17,7 @@ def reduce (array, sv=nil)
    num1 = array[0]
    i = 1
    
+  while i<array.length do 
+    
 end 
 
