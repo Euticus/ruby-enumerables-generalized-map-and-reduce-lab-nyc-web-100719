@@ -5,5 +5,6 @@ def my_own_map (array)
     i,
     i*2, 
     i**2,
-end
+  end
+end 
 
